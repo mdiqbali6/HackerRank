@@ -1,0 +1,21 @@
+// Basic Data Types
+
+#include <iostream>
+#include <cstdio>
+#include<iomanip>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    int a;
+    long l;
+    char ch;
+    float f;
+    double d;
+    cin>> a >> l >> ch >> f >> d;
+    cout<<a<<endl<<l<<endl<<ch<<endl;
+    cout<<fixed<<setprecision(3) << f<<endl;
+    cout<<fixed<<setprecision(9)<< d; 
+    return 0;
+    
+}
