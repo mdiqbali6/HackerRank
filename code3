@@ -1,0 +1,42 @@
+//  conditional
+
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+    
+
+    // Write your code here
+    int z;
+    
+        cin>>z;
+        if(z==1){
+        cout<<"one";}
+        else if(z==2){
+        cout<<"two";}
+        else if(z==3){
+        cout<<"three";}
+        else if(z==4){
+        cout<<"four";}
+        else if(z==5){
+        cout<<"five";}
+        else if(z==6){
+        cout<<"six";}
+        else if(z==7){
+        cout<<"seven";}
+        else if(z==8){
+        cout<<"eight";}
+        else if(z==9) {
+        cout<<"nine";}
+        else{
+            cout<<"Greater than 9";
+        }
+        
+       
+
+   return 0;
+}
